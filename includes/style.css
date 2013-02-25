@@ -1,0 +1,95 @@
+html, body {
+	margin:0;
+	padding:0;
+	background: #BCBCBC;
+	color:#424242;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+img { border: none; }
+
+div#outer {
+	width:100%;
+	height:auto;
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom:50px;
+    margin:auto;
+    overflow-y:hidden;
+}
+
+div#wrapper {
+     position:relative;
+     margin: auto;
+     top: 20px;
+     width:750px;
+     background-color:rgba(233,233,233,0.9);
+     padding: 30px 30px 10px 30px;
+     border-radius: 30px;
+}
+
+p {
+	font-size: 16pt;
+	margin-bottom: 20px;
+	margin-top: 20px;}
+
+h1 h2 h3{
+	text-align: center;
+}
+
+input {
+	font-size: 25px;
+}
+
+select {
+	font-size: 25px;
+}
+
+.confirmation-field { display: none; }
+
+/* http://apps.eky.hk/css-triangle-generator/ */
+
+div#triangle1 {
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 10000px 16200px 0;
+border-color: transparent #FF9900 transparent transparent;
+line-height: 0px;
+position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.triangle2 {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10000px 16200px 0 0;
+	border-color: #3299BB transparent transparent transparent;
+	line-height: 0px;
+	float:right;
+	opacity: .8;
+}
+
+div#container1 {
+	width:100%;
+	height: 3000px;
+	overflow: hidden;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div#container2 {
+	width:100%;
+	height: 3000px;
+	overflow: hidden;
+	position: absolute;
+    top: 0;
+    left: 0;
+    float:right;
+}
+
+/* http://www.colourlovers.com/palette/148712/Gamebookers */
